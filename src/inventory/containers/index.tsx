@@ -2,7 +2,7 @@ import InventoryTable from "./InventoryTable"
 
 const Inventory = () => {
   return (
-      <div>
+      <div style={{padding:'2rem 1rem'}}>
         <InventoryTable />
       </div>
   )

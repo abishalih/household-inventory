@@ -12,5 +12,8 @@ export const distinctTableColumnFilter = (column:TableColumnType<any>, data:any[
     }));
 
     // Return the column with the filters
-    return { ...column, filters:column.onFilter?filters:undefined };
+    return { 
+        ...column, 
+        filters:column.onFilter?filters:undefined, 
+    };
 }
