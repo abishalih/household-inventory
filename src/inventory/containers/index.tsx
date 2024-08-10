@@ -1,7 +1,10 @@
+import InventoryTable from "./InventoryTable"
 
 const Inventory = () => {
   return (
-    <div>Inventory</div>
+      <div>
+        <InventoryTable />
+      </div>
   )
 }
 
